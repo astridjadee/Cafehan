@@ -1,0 +1,361 @@
+
+
+
+body {
+    background-color: #f5f5ef;
+    
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 200px;
+    height: 40px;
+    margin: 10px 40px;
+    padding-right: 150px;
+}
+.nav-text {
+    list-style: none;
+    display: flex;
+}
+.nav-text li {
+    margin: 0 20px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:'Poppins',sans-serif;
+}
+.nav-text a {
+    color: #000;
+    text-decoration: none;
+    transition: all .40s ease;
+}
+.nav-text a:hover {
+    color:#a08e73;
+}
+.cart-container {
+    position: relative;
+}
+.bi-cart4 {
+    font-size: 38px;
+    cursor: pointer;
+}
+.cart-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.cart-number1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cart-number2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 18px;
+}
+.checkout{
+    margin-top: 15px;
+    padding: 12px 30px;
+    background-color: #d1c8c1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.checkout:hover {
+    background-color: #b09d96;
+    color: #fff;
+}
+.hotlatte{
+    width: 100px;
+    height: 100px;
+}
+.bi-x-circle{
+    font-size: 20px;
+    cursor: pointer;
+}
+.bi-x-circle:hover{
+    color: rgb(236, 29, 29);
+}
+
+.bi-person-circle {
+    font-size: 38px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+.bi-person-circle:hover{
+    color: #a08e73;
+}
+.bi-list{
+    font-size: 40px;
+}
+.bi-list:hover{
+    color: #a08e73;
+    transition: all 0.40s ease;
+}
+.icons {
+    margin: 0 22px;
+    display: flex;
+}
+.bi-box-arrow-right{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.userdropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 119px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 10px;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+
+.toggle-menu{
+    display: none;
+    align-items: center;
+    cursor: pointer;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    text-align: center;
+    right: 10px;
+    top: 70px;
+    width: 160px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+.dropdown-menu a{
+    height: 100%;
+    color: #000;
+    text-decoration: none;
+    transition: all .40s ease;
+}  
+.dropdown-menu li{
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dropdown-menu a:hover{
+    color: #a08e73;
+}
+.logout{
+    font-family: 'Poppins',sans-serif;
+}
+.show {
+    display: block;
+}
+
+.lahat{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-gap: 2rem;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.left {
+    width: 90%;
+    height: auto;
+    margin: 8% 0 0 8%;
+    text-align: center;
+    line-height: 200%;
+    position: relative;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.left h1{
+    color: #593D30;
+    font-size: 80px;
+}
+
+.left p{
+  
+    font-size: 30px;
+}
+
+.socicons {
+    position: relative;
+}
+.socicons a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.5;
+    margin:30px 10px 25px;
+    font-size: 30px;
+}
+
+.socicons .fa{
+    padding:15px 25px;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.socicons .fa-facebook{
+    background-color:#3B5998;
+}
+
+.socicons .fa-twitter{
+    background-color:#55ACEE;
+}
+
+.socicons .fa-instagram {
+    background: rgb(64, 93, 230);
+}
+
+
+.right{
+    background: transparent;
+    width: 320px;
+    height: 360px;
+    padding: 25px;
+    margin: 10% auto 0; 
+    border-radius: 15px;
+    box-shadow: 0 0 5px;
+}
+
+.reg {
+    width: 90%;
+    position: relative;
+    margin: 25px auto; 
+    font-family: 'Hind Siliguri', sans-serif;   
+}
+
+.contact-inputs{
+    width: 100%;
+    padding: 8px 0 8px 2px;
+    border-radius: 0 10px;
+}
+
+.right textarea{
+    padding: 1% 0 40% 0;
+    border-radius: 0 5px 10px;
+}
+
+.submit{
+    margin-left: 205px;
+    height: 33px;
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    background-color:  rgb(136, 81, 63);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .logo{
+        width: 160px;
+        height: 33px;
+        margin: 0 10px;
+        padding-right: 0px;
+    }
+    .navbar {
+        justify-content: space-between;
+        text-align: center;
+    }
+    .nav-text {
+        display: none;
+    }
+    .bi-person-circle{
+        display: none;
+    }
+    .cart-container {
+        margin-right: 6px;
+    }
+    .cart-items {
+        font-size: 12px;
+        min-width: 250px;
+    }
+    .checkout{
+        margin-top: 0px;
+        padding: 13px 20px;
+        font-size: 10px;
+    }
+    .toggle-menu{
+        display: block;
+    }
+    .lahat{
+        display: block;
+
+    }
+    .left{
+        margin: 0 20px;
+
+    }
+
+    .left h1{
+        color: #593D30;
+        font-size: 60px;
+    }
+    
+    .left p{
+      
+        font-size: 18px;
+    }
+    .right{
+        margin: 0 20px;
+        padding: 20px;
+    }
+    }

@@ -1,0 +1,215 @@
+body 
+{
+    font-size: 14px;
+    background-color:#f5f5ef;
+}
+.dikonalam {
+    display: flex;
+}
+.container{
+    background-color: none;
+    width: 370px;
+    padding: 15px;
+    margin: 9% 14%; 
+    border-radius: 30px;
+    box-shadow: 0 0 0 4px;
+    border: 50px;
+}
+
+form {  
+    margin-top: 15%;
+}
+
+.reg {
+        position: relative;
+        margin: 20px auto; 
+        font-size: 15px;
+        height:35%;
+        width:66%;
+        text-align: center;
+        margin-left: 56px;
+    }
+
+.btn-secondary {
+        background-color: #d8ab87;
+        border: none;
+        padding: 6px 8px;
+        text-decoration: none;
+        cursor: pointer;
+        size: 10px;
+}
+
+.text-name  {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 3px;
+    padding: 8px 0px 8px 5px;
+    margin-left: -6px;
+}
+
+.reg p{
+    line-height: 1px;
+    font-size: 15px;
+}
+
+.reg input:focus {
+    outline: 0;
+}
+
+.reg.success input{
+    border-color: green;
+}
+
+.reg.error input{
+    border-color: red;
+}
+
+.reg .error {
+    color: red;
+    font-size: 9px;
+    height: 13px;
+    text-align: left;
+}
+
+.ggl   {
+
+            width:100%;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: transparent; 
+        }
+
+.ggllogo {
+             height:10%; 
+             width: 10%;
+             margin: 2%;
+             margin-bottom: 3%;
+        }
+
+.or {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center; 
+    align-items: center;
+    line-height: 2;
+  }    
+
+.or::before, .or::after{
+    content: "";
+    height: 1px;
+    background-color: black;
+    display: inline;
+  } 
+
+.reg a {
+            text-decoration: none;
+            color: black;
+        }
+
+.reg .register {
+            font-size: 12px;
+            color: #000;
+        }   
+
+
+.forgot a b {
+    font-size: 10px;
+}
+
+.right{
+    text-align: right;
+    color: brown;
+    margin-left: 20px;
+    margin-top: 160px;
+}
+
+.right .taas{
+    margin-right: 70px;   
+}
+
+.right .taas img {
+    width: 254.5px;
+    height: 63.5px;
+}
+
+.right .picture img {
+        height: 250px;
+    }
+
+.text{ 
+    margin: 0 75px 0 0;
+    font-size: 25px; 
+    
+    
+}
+
+
+
+.T { 
+    transform: translate(0px, -2.5px) rotate(10deg); 
+} 
+
+.H { 
+    transform: translate(0px, 2.5px) rotate(10deg); 
+} 
+
+.I { 
+    transform: translate(0px, 6px) rotate(10deg); 
+} 
+
+.N { 
+    transform: translate(0px, 9.5px) rotate(9deg); 
+} 
+
+.K { 
+    transform: translate(0px, 12px) rotate(4.5deg); 
+} 
+
+.f { 
+    transform: translate(0px, 0px) rotate(-10deg); 
+} 
+
+.C { 
+    transform: translate(0px, 13.5px) rotate(-5deg); 
+} 
+
+.O { 
+    transform: translate(0px, 13px) rotate(-5deg); 
+} 
+
+.F1 { 
+    transform: translate(0px, 12px) rotate(-9deg); 
+} 
+
+.F2 { 
+    transform: translate(0px, 9.5px) rotate(-12deg); 
+} 
+
+.E1 { 
+    transform: translate(0px, 5px) rotate(-15deg); 
+} 
+
+.E2 { 
+    transform: translate(0px, -1px) rotate(-17deg); 
+} 
+
+span { 
+    display: inline-block; 
+} 
+
+
+
+@media only screen and (max-width: 768px) {
+    .dikonalam{
+        display: block;
+    }
+    .container{
+        margin: 190px 23px;
+    }
+    .right{
+        display: none;
+    }
+}
+
